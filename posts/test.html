@@ -1,4 +1,27 @@
-<span style="display:block" class="note"> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <p> Test iframe below - relative link </p>
+    <iframe src="snippets/include.html"
+            onload="this.before((this.contentDocument.body || this.contentDocument).children[0]);this.remove()"></iframe>
+  
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="grid-container halves">
+      <div>
+        <span style="display:block" class="note"> 
   # This is my markdown test
 
 * some bullet
@@ -8,3 +31,12 @@
 
 and some text
 </span>
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
+
