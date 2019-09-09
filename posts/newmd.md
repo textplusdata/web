@@ -1,4 +1,7 @@
+---
 title: Test new md file
+layout: default
+---
 
 <iframe src="/web/snippets/navbar.html" onload="this.before((this.contentDocument.body || this.contentDocument).children[0]);this.remove()"></iframe>
 
