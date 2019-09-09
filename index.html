@@ -6,11 +6,16 @@
   <body>
     <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>
     p</strong> tag and its contents.</p>
-    <p> Test iframe below </p>
-    <iframe src="/snippets/navbar.html"
+    <p> Test iframe below - relative link </p>
+    <iframe src="/web/snippets/navbar.html"
             onload="this.before((this.contentDocument.body || this.contentDocument).children[0]);this.remove()"></iframe>
+    
+     <p> Direct link </p>
     <iframe src="https://textplusdata.github.io/web/snippets/navbar.html"
             onload="this.before((this.contentDocument.body || this.contentDocument).children[0]);this.remove()"></iframe>
+    
+     <p> Test iframe below - relative link without this.content js </p>
+    <iframe src="/web/snippets/navbar.html"</iframe>
     
   </body>
 </html>
